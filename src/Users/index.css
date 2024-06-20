@@ -1,0 +1,10 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .images > * {
+    flex: 0 1 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+  }
